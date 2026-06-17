@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F2F5"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="OTA自动升级测试"
+            android:textSize="24sp"
+            android:textColor="#1A1A2E"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="v1.0"
+            android:textSize="13sp"
+            android:textColor="#888"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="机器人名称"
+            android:textSize="15sp"
+            android:textColor="#333"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp" />
+
+        <EditText
+            android:id="@+id/etDeviceName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="例如: 42"
+            android:text="42"
+            android:textSize="16sp"
+            android:background="@drawable/edit_bg"
+            android:padding="12dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="测试轮数"
+            android:textSize="15sp"
+            android:textColor="#333"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etRoundCount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="例如: 100"
+            android:text="100"
+            android:textSize="16sp"
+            android:inputType="number"
+            android:background="@drawable/edit_bg"
+            android:padding="12dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:id="@+id/tvStats"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="准备就绪"
+            android:textSize="14sp"
+            android:textColor="#555"
+            android:padding="12dp"
+            android:background="#FFFFFF"
+            android:visibility="gone"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/btnStart"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="开始测试"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:background="#4A6CF7"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/btnStop"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="停止测试"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:background="#E74C3C"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tvStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="就绪"
+            android:textSize="14sp"
+            android:textColor="#666"
+            android:gravity="center"
+            android:layout_marginTop="12dp" />
+
+    </LinearLayout>
+
+</ScrollView>

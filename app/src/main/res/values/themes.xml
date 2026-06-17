@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.OTATest" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#4A6CF7</item>
+        <item name="colorPrimaryDark">#3A5CE7</item>
+        <item name="colorAccent">#4A6CF7</item>
+    </style>
+</resources>
